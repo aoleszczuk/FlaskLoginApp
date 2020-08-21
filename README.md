@@ -1,2 +1,2 @@
 # FlaskLoginApp
-Simple login application with user database
+Simple website to login into user site and submit email to a database.

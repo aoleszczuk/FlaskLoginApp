@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Login Page{% endblock %}
+
+{% block content %}
+    {% for mesg in get_flashed_messages() %}
+        <p>{{ mesg }}</p>
+    {% endfor %}
+<h1>Welcome to Login Page</h1>
+<form class="form-sub" action="#" method="POST">
+    <input class="form-control" type="text" name="nm" placeholder="Name"/>
+    <input class="btn btn-lg btn-primary" type="submit" value="Submit"/>
+</form>
+
+{% endblock %}

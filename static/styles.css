@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+.form-sub {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.btn {
+    margin-top: 20px;
+}
